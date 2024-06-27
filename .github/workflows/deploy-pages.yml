@@ -36,7 +36,7 @@ jobs:
 
       # Build the page using 11ty
       - name: Build with 11ty
-        run: pnpm exec @11ty/eleventy
+        run: pnpm npx @11ty/eleventy
 
       # Deploy the content of _site to the branch gh-pages (default setting)
       - name: Deploy
